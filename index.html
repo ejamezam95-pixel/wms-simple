@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple WMS</title>
+</head>
+<body>
+  <h1>Simple Warehouse Management System</h1>
+
+  <h2>Login</h2>
+  <input id="username" placeholder="Username">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+  <p id="login-msg"></p>
+
+  <h2>Add Product</h2>
+  <input id="prod-name" placeholder="Product Name">
+  <input id="prod-qty" type="number" placeholder="Quantity">
+  <button onclick="addProduct()">Add Product</button>
+
+  <h2>Products List</h2>
+  <ul id="product-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
